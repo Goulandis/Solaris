@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Socket">
+      <UniqueIdentifier>{ac7927a0-c192-418d-956c-95479d75ee9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Socket">
+      <UniqueIdentifier>{f4f6f978-4c47-4e35-8e08-5fd6edec8ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Data">
+      <UniqueIdentifier>{76592658-a7a9-4fe9-b24c-27a9a05c5482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Data">
+      <UniqueIdentifier>{7770ffbc-1668-4f8d-a1ac-0e06b5ca2bc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SQL">
+      <UniqueIdentifier>{415beabf-615f-46e8-9e39-d5dc7741c42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SQL">
+      <UniqueIdentifier>{0a2d1c6f-3111-4f39-ab58-2ab996f87a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerData">
+      <UniqueIdentifier>{1ec5c532-5565-4fc4-ac7d-115eb945af7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ServerData">
+      <UniqueIdentifier>{914dc677-b138-4436-991d-268bf36b51d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameSever.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketConnect.cpp">
+      <Filter>源文件\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketDataReceive.cpp">
+      <Filter>源文件\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketMultiDataSend.cpp">
+      <Filter>源文件\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketSingleDataSend.cpp">
+      <Filter>源文件\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketClientManager.cpp">
+      <Filter>源文件\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SynBase.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SynRegister.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SynCreateRoom.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SynLogin.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SynJoinRoom.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SynLoadRoom.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SynExitRoom.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SynMassage.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SynStartGame.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SynDismissRoom.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SynRoadMessage.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="SynCountdown.cpp">
+      <Filter>源文件\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>源文件\ServerData</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>源文件\ServerData</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomItem.cpp">
+      <Filter>源文件\ServerData</Filter>
+    </ClCompile>
+    <ClCompile Include="SQL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountDataTable.cpp">
+      <Filter>源文件\SQL</Filter>
+    </ClCompile>
+    <ClCompile Include="FlagLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SynMiniMapLocation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Server.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketConnect.h">
+      <Filter>头文件\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketDataReceive.h">
+      <Filter>头文件\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketMultiDataSend.h">
+      <Filter>头文件\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketSingleDataSend.h">
+      <Filter>头文件\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketClientManager.h">
+      <Filter>头文件\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SynBase.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SynRegister.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SynCreateRoom.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SynLogin.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SynJoinRoom.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SynLoadRoom.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SynExitRoom.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SynStartGame.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SynDismissRoom.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SynMassage.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SynCountdown.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="SynRoadMessage.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="FlagLib.h">
+      <Filter>ServerData</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ServerData</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>ServerData</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomItem.h">
+      <Filter>ServerData</Filter>
+    </ClInclude>
+    <ClInclude Include="SQL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountDataTable.h">
+      <Filter>头文件\SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="SynMiniMapLocation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

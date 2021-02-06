@@ -1,0 +1,11 @@
+﻿SQL.obj : error LNK2019: 无法解析的外部符号 _mysql_num_fields@4，该符号在函数 "public: class AccountDataTable * __thiscall SQL::ReadAccountData(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?ReadAccountData@SQL@@QAEPAVAccountDataTable@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+SQL.obj : error LNK2019: 无法解析的外部符号 _mysql_init@4，该符号在函数 "public: __thiscall SQL::SQL(void)" (??0SQL@@QAE@XZ) 中被引用
+SQL.obj : error LNK2019: 无法解析的外部符号 _mysql_real_connect@32，该符号在函数 "public: __thiscall SQL::SQL(void)" (??0SQL@@QAE@XZ) 中被引用
+SQL.obj : error LNK2019: 无法解析的外部符号 _mysql_select_db@8，该符号在函数 "public: __thiscall SQL::SQL(void)" (??0SQL@@QAE@XZ) 中被引用
+SQL.obj : error LNK2019: 无法解析的外部符号 _mysql_real_query@12，该符号在函数 "public: class AccountDataTable * __thiscall SQL::ReadAccountData(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?ReadAccountData@SQL@@QAEPAVAccountDataTable@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+SQL.obj : error LNK2019: 无法解析的外部符号 _mysql_store_result@4，该符号在函数 "public: class AccountDataTable * __thiscall SQL::ReadAccountData(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?ReadAccountData@SQL@@QAEPAVAccountDataTable@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+SQL.obj : error LNK2019: 无法解析的外部符号 _mysql_free_result@4，该符号在函数 "public: __thiscall SQL::~SQL(void)" (??1SQL@@QAE@XZ) 中被引用
+SQL.obj : error LNK2019: 无法解析的外部符号 _mysql_fetch_row@4，该符号在函数 "public: class AccountDataTable * __thiscall SQL::ReadAccountData(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?ReadAccountData@SQL@@QAEPAVAccountDataTable@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+SQL.obj : error LNK2019: 无法解析的外部符号 _mysql_close@4，该符号在函数 "public: __thiscall SQL::~SQL(void)" (??1SQL@@QAE@XZ) 中被引用
+C:\Program Files\MySQL\MySQL Server 8.0\lib\libmysql.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\UEProject\GameSever\Debug\GameSever.exe : fatal error LNK1120: 9 个无法解析的外部命令
